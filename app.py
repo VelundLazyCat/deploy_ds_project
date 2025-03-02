@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 import numpy as np
-#import tensorflow as tf
+import tensorflow as tf
 import joblib
 import sklearn
 
@@ -9,7 +9,7 @@ model_tree = 'models/model_tree.pkl'
 model_log = 'models/model_log.pkl'
 model_sgd = 'models/model_sgd.pkl'
 model_stack = 'models/stacking_model_ml.pkl'
-model_nn = 'models/stacking_model_ml.pkl'
+model_nn = 'models/model_NN.keras'
 
 values = 'models/values.pkl'
 
